@@ -1,0 +1,309 @@
+5.9s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+5.9s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+5.9s 3 0.00s - to python to disable frozen modules.
+5.9s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+6.7s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+6.7s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+6.7s 7 0.00s - to python to disable frozen modules.
+6.7s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+18.3s 9 Class distribution:
+18.3s 10 10-26-26: 113887 samples (15.18%)
+18.3s 11 14-35-14: 114436 samples (15.26%)
+18.3s 12 17-17-17: 112453 samples (14.99%)
+18.3s 13 20-20: 110889 samples (14.79%)
+18.3s 14 28-28: 111158 samples (14.82%)
+18.3s 15 DAP: 94860 samples (12.65%)
+18.3s 16 Urea: 92317 samples (12.31%)
+18.3s 17 
+18.3s 18 ==================================================
+18.3s 19 Training Fold 1/5
+18.3s 20 ==================================================
+19.3s 21 1 warning generated.
+19.5s 22 1 warning generated.
+19.5s 23 1 warning generated.
+19.6s 24 1 warning generated.
+19.7s 25 1 warning generated.
+19.7s 26 1 warning generated.
+19.8s 27 1 warning generated.
+19.9s 28 1 warning generated.
+20.0s 29 1 warning generated.
+20.0s 30 1 warning generated.
+20.0s 31 1 warning generated.
+20.1s 32 1 warning generated.
+20.2s 33 1 warning generated.
+20.2s 34 1 warning generated.
+20.2s 35 1 warning generated.
+20.3s 36 1 warning generated.
+20.4s 37 1 warning generated.
+20.4s 38 1 warning generated.
+20.4s 39 1 warning generated.
+20.5s 40 1 warning generated.
+20.6s 41 1 warning generated.
+20.6s 42 1 warning generated.
+20.7s 43 1 warning generated.
+20.8s 44 1 warning generated.
+20.9s 45 1 warning generated.
+20.9s 46 1 warning generated.
+20.9s 47 1 warning generated.
+21.0s 48 1 warning generated.
+21.1s 49 1 warning generated.
+21.1s 50 1 warning generated.
+21.1s 51 1 warning generated.
+21.2s 52 1 warning generated.
+21.3s 53 1 warning generated.
+21.3s 54 1 warning generated.
+21.4s 55 1 warning generated.
+21.5s 56 1 warning generated.
+21.6s 57 1 warning generated.
+21.6s 58 1 warning generated.
+21.6s 59 1 warning generated.
+21.7s 60 1 warning generated.
+21.8s 61 1 warning generated.
+21.8s 62 1 warning generated.
+21.8s 63 1 warning generated.
+21.9s 64 1 warning generated.
+22.0s 65 1 warning generated.
+22.0s 66 1 warning generated.
+22.1s 67 1 warning generated.
+22.2s 68 1 warning generated.
+22.3s 69 1 warning generated.
+22.3s 70 1 warning generated.
+22.3s 71 1 warning generated.
+22.4s 72 1 warning generated.
+22.5s 73 1 warning generated.
+22.5s 74 1 warning generated.
+22.6s 75 1 warning generated.
+22.7s 76 1 warning generated.
+22.8s 77 1 warning generated.
+22.8s 78 1 warning generated.
+22.8s 79 1 warning generated.
+22.9s 80 1 warning generated.
+23.0s 81 1 warning generated.
+23.0s 82 1 warning generated.
+23.1s 83 1 warning generated.
+23.2s 84 1 warning generated.
+23.3s 85 1 warning generated.
+23.3s 86 1 warning generated.
+24.4s 87 Training until validation scores don't improve for 100 rounds
+94.1s 88 [100]	valid_0's multi_logloss: 1.93666
+163.8s 89 [200]	valid_0's multi_logloss: 1.93265
+233.4s 90 [300]	valid_0's multi_logloss: 1.92975
+303.6s 91 [400]	valid_0's multi_logloss: 1.92751
+372.4s 92 [500]	valid_0's multi_logloss: 1.92572
+440.0s 93 [600]	valid_0's multi_logloss: 1.92427
+506.7s 94 [700]	valid_0's multi_logloss: 1.92316
+572.2s 95 [800]	valid_0's multi_logloss: 1.92224
+637.7s 96 [900]	valid_0's multi_logloss: 1.92151
+702.3s 97 [1000]	valid_0's multi_logloss: 1.9209
+766.3s 98 [1100]	valid_0's multi_logloss: 1.92043
+829.2s 99 [1200]	valid_0's multi_logloss: 1.92009
+891.5s 100 [1300]	valid_0's multi_logloss: 1.91979
+953.2s 101 [1400]	valid_0's multi_logloss: 1.91956
+1014.1s 102 [1500]	valid_0's multi_logloss: 1.91943
+1075.4s 103 [1600]	valid_0's multi_logloss: 1.91932
+1136.2s 104 [1700]	valid_0's multi_logloss: 1.91928
+1197.7s 105 [1800]	valid_0's multi_logloss: 1.91921
+1257.6s 106 [1900]	valid_0's multi_logloss: 1.91922
+1290.4s 107 Early stopping, best iteration is:
+1290.4s 108 [1855]	valid_0's multi_logloss: 1.91921
+1627.2s 109 Fold 1 MAP@3: 0.3312 | Training time: 1293.33 seconds
+1627.5s 110 
+1627.5s 111 ==================================================
+1627.5s 112 Training Fold 2/5
+1627.5s 113 ==================================================
+1628.8s 114 Training until validation scores don't improve for 100 rounds
+1699.2s 115 [100]	valid_0's multi_logloss: 1.93659
+1769.4s 116 [200]	valid_0's multi_logloss: 1.9325
+1838.0s 117 [300]	valid_0's multi_logloss: 1.92944
+1906.5s 118 [400]	valid_0's multi_logloss: 1.92716
+1976.1s 119 [500]	valid_0's multi_logloss: 1.92527
+2044.1s 120 [600]	valid_0's multi_logloss: 1.92373
+2111.1s 121 [700]	valid_0's multi_logloss: 1.92248
+2177.1s 122 [800]	valid_0's multi_logloss: 1.9215
+2242.4s 123 [900]	valid_0's multi_logloss: 1.92073
+2306.6s 124 [1000]	valid_0's multi_logloss: 1.92009
+2370.0s 125 [1100]	valid_0's multi_logloss: 1.91957
+2433.0s 126 [1200]	valid_0's multi_logloss: 1.91915
+2495.3s 127 [1300]	valid_0's multi_logloss: 1.91878
+2557.2s 128 [1400]	valid_0's multi_logloss: 1.91856
+2617.9s 129 [1500]	valid_0's multi_logloss: 1.9184
+2676.5s 130 [1600]	valid_0's multi_logloss: 1.91828
+2735.7s 131 [1700]	valid_0's multi_logloss: 1.91823
+2794.8s 132 [1800]	valid_0's multi_logloss: 1.91821
+2854.2s 133 [1900]	valid_0's multi_logloss: 1.91818
+2913.4s 134 [2000]	valid_0's multi_logloss: 1.91819
+2913.4s 135 Did not meet early stopping. Best iteration is:
+2913.4s 136 [1905]	valid_0's multi_logloss: 1.91817
+3264.1s 137 Fold 2 MAP@3: 0.3320 | Training time: 1307.17 seconds
+3264.3s 138 
+3264.3s 139 ==================================================
+3264.3s 140 Training Fold 3/5
+3264.3s 141 ==================================================
+3265.6s 142 Training until validation scores don't improve for 100 rounds
+3335.3s 143 [100]	valid_0's multi_logloss: 1.93672
+3405.2s 144 [200]	valid_0's multi_logloss: 1.93271
+3474.8s 145 [300]	valid_0's multi_logloss: 1.92966
+3543.3s 146 [400]	valid_0's multi_logloss: 1.92736
+3611.2s 147 [500]	valid_0's multi_logloss: 1.92552
+3678.7s 148 [600]	valid_0's multi_logloss: 1.924
+3746.8s 149 [700]	valid_0's multi_logloss: 1.92281
+3812.7s 150 [800]	valid_0's multi_logloss: 1.92179
+3877.5s 151 [900]	valid_0's multi_logloss: 1.92097
+3941.7s 152 [1000]	valid_0's multi_logloss: 1.92036
+4005.9s 153 [1100]	valid_0's multi_logloss: 1.9199
+4068.5s 154 [1200]	valid_0's multi_logloss: 1.9195
+4131.0s 155 [1300]	valid_0's multi_logloss: 1.91916
+4191.1s 156 [1400]	valid_0's multi_logloss: 1.9189
+4251.7s 157 [1500]	valid_0's multi_logloss: 1.91878
+4312.1s 158 [1600]	valid_0's multi_logloss: 1.91864
+4370.9s 159 [1700]	valid_0's multi_logloss: 1.91856
+4429.9s 160 [1800]	valid_0's multi_logloss: 1.91858
+4440.0s 161 Early stopping, best iteration is:
+4440.0s 162 [1718]	valid_0's multi_logloss: 1.91853
+4748.4s 163 Fold 3 MAP@3: 0.3320 | Training time: 1195.52 seconds
+4748.4s 164 
+4748.4s 165 ==================================================
+4748.4s 166 Training Fold 4/5
+4748.4s 167 ==================================================
+4749.8s 168 Training until validation scores don't improve for 100 rounds
+4819.4s 169 [100]	valid_0's multi_logloss: 1.93668
+4889.6s 170 [200]	valid_0's multi_logloss: 1.93263
+4959.4s 171 [300]	valid_0's multi_logloss: 1.92966
+5028.3s 172 [400]	valid_0's multi_logloss: 1.92738
+5097.3s 173 [500]	valid_0's multi_logloss: 1.92559
+5165.9s 174 [600]	valid_0's multi_logloss: 1.92419
+5233.1s 175 [700]	valid_0's multi_logloss: 1.923
+5299.0s 176 [800]	valid_0's multi_logloss: 1.92202
+5364.2s 177 [900]	valid_0's multi_logloss: 1.9212
+5428.1s 178 [1000]	valid_0's multi_logloss: 1.92058
+5491.9s 179 [1100]	valid_0's multi_logloss: 1.92006
+5554.4s 180 [1200]	valid_0's multi_logloss: 1.91968
+5616.5s 181 [1300]	valid_0's multi_logloss: 1.91939
+5678.0s 182 [1400]	valid_0's multi_logloss: 1.91916
+5737.2s 183 [1500]	valid_0's multi_logloss: 1.919
+5796.5s 184 [1600]	valid_0's multi_logloss: 1.91888
+5856.2s 185 [1700]	valid_0's multi_logloss: 1.91879
+5916.5s 186 [1800]	valid_0's multi_logloss: 1.91878
+5976.8s 187 [1900]	valid_0's multi_logloss: 1.91881
+5990.6s 188 Early stopping, best iteration is:
+5990.6s 189 [1824]	valid_0's multi_logloss: 1.91877
+6348.8s 190 Fold 4 MAP@3: 0.3321 | Training time: 1262.73 seconds
+6348.8s 191 
+6348.8s 192 ==================================================
+6348.8s 193 Training Fold 5/5
+6348.8s 194 ==================================================
+6350.2s 195 Training until validation scores don't improve for 100 rounds
+6421.7s 196 [100]	valid_0's multi_logloss: 1.93667
+6492.3s 197 [200]	valid_0's multi_logloss: 1.93271
+6562.0s 198 [300]	valid_0's multi_logloss: 1.92974
+6630.2s 199 [400]	valid_0's multi_logloss: 1.92754
+6697.5s 200 [500]	valid_0's multi_logloss: 1.92568
+6764.4s 201 [600]	valid_0's multi_logloss: 1.92426
+6830.0s 202 [700]	valid_0's multi_logloss: 1.92308
+6894.8s 203 [800]	valid_0's multi_logloss: 1.92214
+6958.8s 204 [900]	valid_0's multi_logloss: 1.92138
+7021.6s 205 [1000]	valid_0's multi_logloss: 1.92077
+7083.9s 206 [1100]	valid_0's multi_logloss: 1.92025
+7145.5s 207 [1200]	valid_0's multi_logloss: 1.91983
+7206.4s 208 [1300]	valid_0's multi_logloss: 1.9195
+7267.5s 209 [1400]	valid_0's multi_logloss: 1.91931
+7327.6s 210 [1500]	valid_0's multi_logloss: 1.91911
+7387.2s 211 [1600]	valid_0's multi_logloss: 1.91896
+7444.1s 212 [1700]	valid_0's multi_logloss: 1.91895
+7503.4s 213 [1800]	valid_0's multi_logloss: 1.91894
+7561.1s 214 [1900]	valid_0's multi_logloss: 1.91894
+7563.4s 215 Early stopping, best iteration is:
+7563.4s 216 [1804]	valid_0's multi_logloss: 1.91894
+7867.1s 217 Fold 5 MAP@3: 0.3312 | Training time: 1235.23 seconds
+7867.1s 218 
+7867.1s 219 Cross-validation results:
+7867.1s 220 Average MAP@3: 0.3317 ± 0.0004
+7867.1s 221 Total training time: 6293.98 seconds
+7907.3s 222 
+7907.3s 223 Training final model on full dataset...
+9246.8s 224 Final model training time: 1339.44 seconds
+9564.3s 225 
+9564.3s 226 Final Model Validation MAP@3: 0.6571
+9564.3s 227 
+9564.3s 228 Sample Validation Predictions:
+9564.3s 229 ============================================================
+9564.3s 230 Sample 1:
+9564.3s 231 True Fertilizer: 28-28
+9564.3s 232 Top 3 Predictions:
+9564.3s 233 1. 14-35-14 (0.2307)
+9564.3s 234 2. 28-28 (0.2183)
+9564.3s 235 3. 10-26-26 (0.1196)
+9564.3s 236 ------------------------------------------------------------
+9564.3s 237 Sample 2:
+9564.3s 238 True Fertilizer: 10-26-26
+9564.3s 239 Top 3 Predictions:
+9564.3s 240 1. 28-28 (0.1960)
+9564.3s 241 2. 10-26-26 (0.1656)
+9564.3s 242 3. 14-35-14 (0.1629)
+9564.3s 243 ------------------------------------------------------------
+9564.3s 244 Sample 3:
+9564.3s 245 True Fertilizer: 10-26-26
+9564.3s 246 Top 3 Predictions:
+9564.3s 247 1. 28-28 (0.1821)
+9564.3s 248 2. DAP (0.1623)
+9564.3s 249 3. 20-20 (0.1602)
+9564.3s 250 ------------------------------------------------------------
+9564.3s 251 Sample 4:
+9564.3s 252 True Fertilizer: Urea
+9564.3s 253 Top 3 Predictions:
+9564.3s 254 1. 14-35-14 (0.1668)
+9564.3s 255 2. 17-17-17 (0.1617)
+9564.3s 256 3. Urea (0.1575)
+9564.3s 257 ------------------------------------------------------------
+9564.3s 258 Sample 5:
+9564.3s 259 True Fertilizer: 28-28
+9564.3s 260 Top 3 Predictions:
+9564.3s 261 1. 20-20 (0.1645)
+9564.3s 262 2. 28-28 (0.1536)
+9564.3s 263 3. Urea (0.1518)
+9564.3s 264 ------------------------------------------------------------
+9564.3s 265 Sample 6:
+9564.3s 266 True Fertilizer: DAP
+9564.3s 267 Top 3 Predictions:
+9564.3s 268 1. DAP (0.2156)
+9564.3s 269 2. 10-26-26 (0.1734)
+9564.3s 270 3. 28-28 (0.1366)
+9564.3s 271 ------------------------------------------------------------
+9564.3s 272 Sample 7:
+9564.3s 273 True Fertilizer: 28-28
+9564.3s 274 Top 3 Predictions:
+9564.3s 275 1. DAP (0.1745)
+9564.3s 276 2. 20-20 (0.1737)
+9564.3s 277 3. 10-26-26 (0.1420)
+9564.3s 278 ------------------------------------------------------------
+9564.3s 279 Sample 8:
+9564.3s 280 True Fertilizer: 20-20
+9564.3s 281 Top 3 Predictions:
+9564.3s 282 1. 20-20 (0.2683)
+9564.3s 283 2. 14-35-14 (0.1620)
+9564.3s 284 3. 10-26-26 (0.1520)
+9564.3s 285 ------------------------------------------------------------
+9564.3s 286 Sample 9:
+9564.3s 287 True Fertilizer: 14-35-14
+9564.3s 288 Top 3 Predictions:
+9564.3s 289 1. 14-35-14 (0.2078)
+9564.3s 290 2. 17-17-17 (0.1572)
+9564.3s 291 3. 20-20 (0.1543)
+9564.3s 292 ------------------------------------------------------------
+9564.3s 293 Sample 10:
+9564.3s 294 True Fertilizer: DAP
+9564.3s 295 Top 3 Predictions:
+9564.3s 296 1. 10-26-26 (0.1990)
+9564.3s 297 2. 20-20 (0.1762)
+9564.3s 298 3. 17-17-17 (0.1536)
+9564.3s 299 ------------------------------------------------------------
+12017.8s 300 
+12017.8s 301 Submission file saved as '/kaggle/working/submission.csv'
+12020.7s 302 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+12020.7s 303 warn(
+12020.7s 304 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+12021.0s 305 [NbConvertApp] Writing 25907 bytes to __notebook__.ipynb
+12022.3s 306 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+12022.3s 307 warn(
+12022.3s 308 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+12023.1s 309 [NbConvertApp] Writing 329198 bytes to __results__.html
