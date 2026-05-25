@@ -1,0 +1,10 @@
+Fertilizer Prediction Model Results
+=================================
+Training data shape: (10000, 10)
+Test data shape: (250000, 9)
+Features: ['Temparature', 'Humidity', 'Moisture', 'Soil Type', 'Crop Type', 'Nitrogen', 'Potassium', 'Phosphorous']
+Categorical features: ['Soil Type', 'Crop Type']
+Numeric features: ['Temparature', 'Humidity', 'Moisture', 'Nitrogen', 'Potassium', 'Phosphorous']
+Fold MAP@3 scores: [0.27189562087582486, 0.2712771277127713, 0.2753775377537754]
+Mean MAP@3: 0.27285
+Model: LogisticRegression with OneHotEncoder and StandardScaler
