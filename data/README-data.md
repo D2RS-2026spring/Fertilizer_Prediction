@@ -1,28 +1,53 @@
-# **预测最佳肥料**
+# 数据说明
 
+## 数据来源
 
+本项目数据来自 Kaggle Playground Series - Predicting Optimal Fertilizers 竞赛数据集。
 
-**您的目标：**您的目标是为不同的天气、土壤条件和作物选择最佳肥料。
+原始数据地址：
 
+https://www.kaggle.com/competitions/playground-series-s5e6
 
+本项目使用的数据文件包括：
 
-## 数据集描述
+- train.csv：训练集，包含输入特征和目标变量
+- test.csv：测试集，只包含输入特征
+- sample_submission.csv：Kaggle 提交格式示例
 
-本次竞赛的数据集（训练和测试）是由在[肥料预测](https://www.kaggle.com/datasets/irakozekelly/fertilizer-prediction)数据集上训练的深度学习模型生成的。特征分布与原始分布接近，但并不完全相同。请随意使用原始数据集作为本次竞赛的一部分，既可以探索差异，也可以看看将原始数据集纳入训练是否可以提高模型性能。
+## 任务目标
 
-## 文件
+本项目的目标是根据环境、土壤、作物和养分信息，预测最适合的肥料类型。
 
-- **train.csv** - 训练数据集; 是分类目标`Fertilizer Name`
-- **test.csv** - 测试数据集;您的目标是预测每行最多三个值，以空格分隔。`Fertilizer Name`
-- **sample_submission.csv** - 格式正确的示例提交文件。
+预测目标变量为：
 
+- Fertilizer Name
 
+## 字段说明
 
-## 评估
+| 字段名 | 含义 |
+|---|---|
+| Temparature | 温度 |
+| Humidity | 湿度 |
+| Moisture | 土壤含水量 |
+| Soil Type | 土壤类型 |
+| Crop Type | 作物类型 |
+| Nitrogen | 氮含量 |
+| Potassium | 钾含量 |
+| Phosphorous | 磷含量 |
+| Fertilizer Name | 肥料名称，模型预测目标 |
 
-根据平均精度 @ 3 （MAP@3） 对提交进行评估：
-$$
-\mathrm{MAP}@3 = \frac{1}{U} \sum_{u=1}^{U} \sum_{k=1}^{\min(n, 3)} P(k) \times \mathrm{rel}(k)
-$$
+## 数据处理说明
 
-其中 $U$ 是观测数，$P(k)$ 是截止时的精度 $k$,$n$ 是每个观测值的预测数，并且 $rel(k)$ 是一个指标函数，如果排名中的项目 $k$ 是相关（正确）标签，否则为零。
+本项目主要进行以下数据处理：
+
+1. 检查缺失值
+2. 统计不同肥料类别的样本数量
+3. 对 Soil Type 和 Crop Type 进行类别编码
+4. 对数值型变量进行标准化
+5. 构造氮、磷、钾比例特征
+6. 构造温湿度交互特征
+7. 使用 LightGBM 模型进行多分类预测
+
+## 评价指标
+
+本任务使用 MAP@3 作为评价指标。模型需要为每个测试样本预测最可能的前三个肥料类别。
