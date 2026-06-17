@@ -1,0 +1,54 @@
+# 可复现说明
+
+## 1. 安装环境
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+## 2. 准备数据
+
+从 Kaggle 下载数据，并放入 `data/` 目录：
+
+```
+data/
+├── README-data.md
+├── train.csv
+├── test.csv
+└── sample_submission.csv
+```
+
+## 3. 运行数据分析
+
+```bash
+python eda.py
+```
+
+运行后生成：
+
+- `outputs/data_summary.csv`
+- `outputs/figures/` — 各类可视化图表
+
+## 4. 运行模型训练
+
+```bash
+python train.py --sample_size 10000
+```
+
+运行后生成：
+
+- `outputs/submission.csv`
+- `outputs/model_metrics.txt`
+- `outputs/model/fertilizer_model.joblib`
+
+如需使用更多样本，可调整参数：
+
+```bash
+python train.py --sample_size 50000
+```
+
+## 5. 总结
+
+本项目完成了从数据准备、数据分析、可视化、模型训练到结果输出的完整流程。通过本项目，可以了解农业肥料推荐任务的基本建模流程，并掌握 GitHub 仓库整理、代码复现和实验报告撰写的方法。
+
+当前模型作为可复现的基线模型已经能够输出肥料推荐结果。后续可以进一步尝试更复杂的机器学习模型和特征工程方法，以提高 MAP@3 评价分数。

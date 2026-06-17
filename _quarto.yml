@@ -1,0 +1,26 @@
+project:
+  type: book
+  output-dir: _book
+
+execute:
+  echo: false
+  warning: false
+  message: false
+
+book:
+  title: "基于机器学习的肥料推荐系统 — 可复现性研究报告"
+  author: "Fertilizer Prediction 小组"
+  date: "2026/6/17"
+  chapters:
+    - index.qmd
+    - background.qmd
+    - data-analysis.qmd
+    - model-method.qmd
+    - results.qmd
+    - reproducibility.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand

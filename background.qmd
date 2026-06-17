@@ -1,0 +1,30 @@
+# 项目背景
+
+## 1. 问题描述
+
+农业施肥决策需要综合考虑作物类型、土壤类型、温度、湿度、土壤水分以及氮磷钾含量等因素。不同作物和不同土壤条件下，适合使用的肥料类型不同。
+
+本项目基于 Kaggle Predicting Optimal Fertilizers 数据集，构建一个肥料推荐模型，根据环境、土壤、作物和养分特征预测合适的肥料类型。
+
+## 2. 数据字段说明
+
+本项目主要使用以下字段：
+
+| 字段名 | 含义 |
+|---|---|
+| id | 样本编号 |
+| Temparature | 温度 |
+| Humidity | 湿度 |
+| Moisture | 土壤含水量 |
+| Soil Type | 土壤类型 |
+| Crop Type | 作物类型 |
+| Nitrogen | 氮含量 |
+| Potassium | 钾含量 |
+| Phosphorous | 磷含量 |
+| Fertilizer Name | 肥料名称，模型预测目标 |
+
+## 3. 数据来源
+
+数据来源于 Kaggle Playground Series - Predicting Optimal Fertilizers 竞赛。
+
+训练集规模为 **750,000 行，10 列**，缺失值统计结果显示各字段缺失值数量均为 0，数据完整性较好。

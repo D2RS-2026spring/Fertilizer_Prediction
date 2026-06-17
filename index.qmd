@@ -1,0 +1,36 @@
+# 基于机器学习的肥料推荐系统
+
+## 项目简介
+
+本项目基于 Kaggle Predicting Optimal Fertilizers 数据集，构建一个可复现的肥料推荐系统。
+
+项目根据温度、湿度、土壤水分、土壤类型、作物类型以及氮磷钾含量等信息，预测适合使用的肥料类型。
+
+## 数据来源
+
+数据来自 Kaggle Playground Series - Predicting Optimal Fertilizers 竞赛。
+
+原始数据文件包括：
+
+- `train.csv` — 训练集，包含输入特征和目标变量 Fertilizer Name
+- `test.csv` — 测试集，只包含输入特征
+- `sample_submission.csv` — 提交格式示例
+
+由于数据来自 Kaggle，本仓库不直接上传原始 CSV 数据。复现实验时需要自行从 Kaggle 下载数据，并放入 `data/` 文件夹。
+
+## 研究目标
+
+1. 构建肥料推荐基线模型
+2. 评估模型在 MAP@3 指标上的表现
+3. 提供完整的可复现流程
+
+## 模型结果
+
+本项目使用 Logistic Regression 作为基线多分类模型，采用 3 折分层交叉验证。
+
+| Fold | MAP@3 |
+|------|-------|
+| Fold 1 | 0.2710 |
+| Fold 2 | 0.2718 |
+| Fold 3 | 0.2753 |
+| **Mean** | **0.27285** |
