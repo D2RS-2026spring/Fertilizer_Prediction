@@ -6,3 +6,4 @@ __pycache__/
 _book/
 
 **/*.quarto_ipynb
+.venv/
