@@ -6,14 +6,50 @@
 
 项目根据温度、湿度、土壤水分、土壤类型、作物类型以及氮磷钾含量等信息，预测适合使用的肥料类型。
 
+## 关于 Kaggle
+
+[Kaggle](https://www.kaggle.com/) 是全球最大的数据科学竞赛平台，由 Google 于 2017 年收购。平台提供三个核心功能：
+
+### 数据集
+
+Kaggle 拥有超过 25 万个公开数据集，涵盖计算机视觉、自然语言处理、推荐系统、金融等领域。数据集通常附带详细的元数据说明、探索性分析笔记（Notebooks）和社区讨论，便于快速上手分析。
+
+### 竞赛机制
+
+Kaggle 竞赛分为以下几类：
+
+| 类型 | 说明 |
+|------|------|
+| **Featured** | 由企业或组织发起，提供现金奖励，通常持续 2-3 个月 |
+| **Research** | 学术研究导向，奖励较少但更具探索性 |
+| **Playground** | 适合学习和练习，数据经过合成处理，无现金奖励 |
+| **Analytics** | 商业分析类竞赛，侧重数据洞察而非模型预测 |
+
+竞赛流程：
+
+1. **发布赛题** — 组织者提供训练数据和评估指标
+2. **参赛者提交** — 上传预测结果到 Leaderboard 进行评分
+3. **排行榜排名** — 根据评估指标（如 MAP@3、AUC、RMSE 等）排名
+4. **颁奖** — 竞赛结束后按最终排名发放奖金
+
+### Playground Series
+
+本项目使用的数据来自 Kaggle **Playground Series**。这是 Kaggle 定期发布的合成数据竞赛，目的是：
+
+- 帮助新手入门机器学习竞赛
+- 提供标准化的练习环境
+- 使用生成模型合成与真实问题相似的数据
+
+Playground Series 的数据经过隐私保护处理，不包含真实敏感信息，但保留了真实数据的统计特征。
+
 ## 数据来源
 
-数据来自 Kaggle Playground Series - Predicting Optimal Fertilizers 竞赛。
+本项目数据来自 [Kaggle Playground Series S5E6](https://www.kaggle.com/competitions/playground-series-s5e6) 竞赛。
 
 原始数据文件包括：
 
-- `train.csv` — 训练集，包含输入特征和目标变量 Fertilizer Name
-- `test.csv` — 测试集，只包含输入特征
+- `train.csv` — 训练集，750,000 行 × 10 列，包含输入特征和目标变量
+- `test.csv` — 测试集，250,000 行 × 9 列，只包含输入特征
 - `sample_submission.csv` — 提交格式示例
 
 由于数据来自 Kaggle，本仓库不直接上传原始 CSV 数据。复现实验时需要自行从 Kaggle 下载数据，并放入 `data/` 文件夹。
